@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Apex Pro Desktop",
+        "price": 1499.99
+    },
+    {
+        "id": 2,
+        "name": "NovaBook 14 Laptop",
+        "price": 999.99
+    },
+    {
+        "id": 3,
+        "name": "Creator Studio Workstation",
+        "price": 2199.00
+    },
+    {
+        "id": 4,
+        "name": "Velocity Gaming PC",
+        "price": 1799.99
+    },
+    {
+        "id": 5,
+        "name": "UltraWide 34 Monitor",
+        "price": 549.99
+    },
+    {
+        "id": 6,
+        "name": "Compact Office Desktop",
+        "price": 699.99
+    },
+    {
+        "id": 7,
+        "name": "TravelMate 13 Laptop",
+        "price": 849.99
+    },
+    {
+        "id": 8,
+        "name": "Pro Mechanical Keyboard",
+        "price": 129.99
+    },
+    {
+        "id": 9,
+        "name": "Precision Wireless Mouse",
+        "price": 59.99
+    },
+    {
+        "id": 10,
+        "name": "Thunderbolt Dock",
+        "price": 189.99
+    }
+]
