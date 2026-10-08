@@ -2,10 +2,12 @@
 	You must replace <FMI_1> with your bucket name
 '''
 import boto3
+from pathlib import Path
+
 S3API = boto3.client("s3", region_name="us-east-1") 
 bucket_name = "<FMI_1>"
 
-filename = "/home/ec2-user/environment/resources/website/config.js"
+filename = str(Path(__file__).resolve().parent.parent / "resources" / "website" / "config.js")
 S3API.upload_file(filename, bucket_name, "config.js", ExtraArgs={'ContentType': "application/js", "CacheControl": "max-age=0"})
 
 
